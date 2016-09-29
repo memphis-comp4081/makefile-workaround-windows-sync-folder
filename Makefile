@@ -32,4 +32,5 @@ rails test
 migrate: sync
 	cd $(sync-dir) && \
 rails db:migrate:reset db:seed
+	rsync -avz --delete $(sync-dir)/ .
 
