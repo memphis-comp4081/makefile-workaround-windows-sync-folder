@@ -11,6 +11,8 @@
 
 # EXAMPLES
 
+First, save the Makefile into your Rails project folder. Then, you can run the following commands from within that folder.
+
      $ rails migrate
      $ rails test
      $ rails server
